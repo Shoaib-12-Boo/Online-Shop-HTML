@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup Form</title>
+</head>
+<body>
+    <form action="http//www.example.com/Lohin.php" method="GET">
+        <fieldset>
+	<legend>Personal Details</legend>
+           
+    <p>
+        First name
+            <input type="text" name="firstname" size="15" maxlength="30"/>
+            
+        Last name
+            <input type="text" name="lastname" size="15" maxlength="30"/>
+    </p>
+
+    <p>
+        Gender:
+            <input type="radio" name="Gender" value="m" checked/>Male
+            <input type="radio" name="Gender" value="f"/>female
+    </p>
+
+    <p>
+        Date Of Birth:
+            <input type="date" name="dob"/>
+    </p>
+    
+    <p>
+    	Email Adress:
+        	<input type="email"/>
+    </p>
+
+    <p>
+        Nationality:
+            <select name="countries" multiple>
+                <option value="Pakstan">Pakistan</option>
+                <option valaue="usa">USA</option>
+                <option value="china">China</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="eng">England</option>
+                <option value="itl">Italy</option>
+                <option value="ger">Germany</option>
+                <option value="irn">Iran</option>
+                <option value="spa">Spain</option>
+            </select>
+    </p>
+
+        </fieldset>
+    <p>
+        Passward:
+            <input type="password" name="passward" size="15" maxlength="30"/>
+    </p>
+
+    <p>
+        Re-enter Passward
+            <input type="password" name="passward" size="15" maxlength="30"/>
+    </p>
+
+    <p>
+        Intersets:
+            <input type="checkbox"name="Intersets" value="Men" />Men's Cloths
+            <input type="checkbox"name="Intersets" value="Women" />Women's Cloths
+            <input type="checkbox"name="Intersets" value="Acc" />Asscesories
+            <input type="checkbox"name="Intersets" value="Elec" />Electronics
+    </p>
+
+    <p>
+        Comments:
+    </p>
+        <textarea name="comments" rows="4" cols="30"> Enter your comments...</textarea>
+
+    <p>
+        Upload Files:
+    </p>
+            <input type="file" name="dp"/>
+            <br />
+            <br />
+            <input type="submit" value="upload"/>
+
+            <input type="submit"/>    
+            <br />
+            <br />
+        <input type="image" src="IMG-20200727-WA0004.jpg" width="500" height="700"/>
+
+    </form>
+    </body>
+</html>
